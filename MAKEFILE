@@ -1,0 +1,5 @@
+php-cs-fixer:
+	vendor/bin/php-cs-fixer fix src/ --rules=@PSR12
+
+php-stan:
+	vendor/bin/phpstan analyse src -c phpstan.neon

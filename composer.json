@@ -1,0 +1,35 @@
+{
+    "name": "inwebo/json-resume-schema",
+    "description": "PHP8 json resume schema implementation",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "json-resume",
+        "schema",
+        "php"
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inwebo\\JsonResumeSchema\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inwebo",
+            "email": "github@inwebo.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+      "php-cs-fixer": "vendor/bin/php-cs-fixer --allow-risky=yes fix",
+      "phpstan": "vendor/bin/phpstan analyse src -c phpstan.neon"
+    }
+}
