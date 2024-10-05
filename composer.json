@@ -1,0 +1,21 @@
+{
+    "name": "inwebo/json-resume-schema",
+    "description": "PHP8 json resume schema implementation",
+    "type": "library",
+    "license": "GPL-3.0 license",
+    "autoload": {
+        "psr-4": {
+            "Inwebo\\JsonResumeSchema\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inwebo",
+            "email": "github@inwebo.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64"
+    }
+}
