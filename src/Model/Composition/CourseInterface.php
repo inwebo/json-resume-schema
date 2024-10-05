@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
+
 namespace Inwebo\JsonResumeSchema\Model\Composition;
 
-interface HighlightInterface
+interface CourseInterface
 {
     /**
-     * @return string Started the company, Awarded Volunteer of the Month
+     * @return string DB1101 - Basic SQL
      */
     public function getName(): string;
 }
