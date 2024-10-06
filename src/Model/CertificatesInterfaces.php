@@ -6,4 +6,5 @@ namespace Inwebo\JsonResumeSchema\Model;
 
 interface CertificatesInterfaces
 {
+    public function getCertificates(): iterable;
 }

@@ -23,4 +23,9 @@ interface EducationInterface extends DateIntervalInterface
      * @return float 4.0
      */
     public function getScore(): float;
+
+    /**
+     * @return iterable<CourseInterface>
+     */
+    public function getCourses(): iterable;
 }
